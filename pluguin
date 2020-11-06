@@ -1,0 +1,12 @@
+./gradlew sonarqube \
+  -Dsonar.projectKey=OnJava8 \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=73f5692f6825363a6982ade0971d39265ed19fba
+  
+  https://github.com/davidflanagan/javascript6_examples
+https://github.com/davidflanagan/javascript6_examples.git
+
+  
+  Borramos ficheros
+  Refernces/Tests
+  validating/Tests

@@ -1,0 +1,40 @@
+Borramos el sonarqube
+docker rm misonarqube -f
+
+me voy a la carpeta proyectos
+
+instalamos maven
+sudo apt install maven
+
+mvn test-compile
+
+mvn test
+
+mvn verify
+
+SONAR utiliza JaCOCO para comprobar cobertura de código..
+
+el informe jacoco en target/coverage-reports/jacoco-unit.exec
+guardamos docker-compose.yml
+
+docker compose up
+
+docker-compose.yml
+sudo apt  install docker-compose
+sudo su -
+
+
+docker-compose.yml
+sudo apt  install docker-compose
+sudo su -
+——————————
+sysctl -w vm.max_map_count=262144
+sysctl -w fs.file-max=65536
+ulimit -n 65536
+ulimit -u 4096
+-----
+exit
+
+docker-compose up -d ( en segundo plano)
+
+

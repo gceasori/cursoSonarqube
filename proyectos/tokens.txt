@@ -1,0 +1,24 @@
+GemmaOnJava8: 73f5692f6825363a6982ade0971d39265ed19fba
+
+
+JavaScriptIvan
+tokenProyectoIvan: 12b9f2b669d71de55ee638bbb2aa83541ecb8766
+
+cobol
+cobolToken: 455e174b5fd1ba1074909865c2adabd72a4a14e7
+
+sonar-scanner \
+  -Dsonar.projectKey=JavaScriptIvan \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=https://ec66dec155ab496692ae84e9ba1ad058.vfs.cloud9.eu-west-1.amazonaws.com \
+  -Dsonar.login=12b9f2b669d71de55ee638bbb2aa83541ecb8766
+  
+  sonar-scanner \
+  -Dsonar.projectKey=cobol \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=455e174b5fd1ba1074909865c2adabd72a4a14e7
+  
+  
+  
+  miToken: c35cd6cc961b0a08a435004c35df6511f07c4a2

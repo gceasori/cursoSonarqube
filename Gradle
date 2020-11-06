@@ -1,0 +1,17 @@
+Execute the Scanner for Gradle from your computer
+Running an analysis with Gradle is straighforward. You just need to declare the org.sonarqube plugin in your build.gradle file:
+
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+and run the following command:
+
+./gradlew sonarqube \
+  -Dsonar.projectKey=OnJava8 \
+  -Dsonar.host.url=https://ec66dec155ab496692ae84e9ba1ad058.vfs.cloud9.eu-west-1.amazonaws.com \
+  -Dsonar.login=73f5692f6825363a6982ade0971d39265ed19fba
+Please visit the official documentation of the Scanner for Gradle for more details.
+
+Once the analysis is completed, this page will automatically refresh and you will be able to browse the analysis results.
+
+https://github.com/BruceEckel/OnJava8-Examples.git
